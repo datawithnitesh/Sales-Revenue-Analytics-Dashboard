@@ -1,0 +1,34 @@
+1. Total Revenue = SUM(vw_SalesDashboard_Enhanced[SalesAmount])
+
+2. Total Profit = SUM(vw_SalesDashboard_Enhanced[Profit])
+
+3. Total Transactions = COUNTROWS(vw_SalesDashboard_Enhanced)
+
+4. Repeat Rate = DIVIDE([Repeat Customers], [Active Customers])
+
+5. Repeat Customers = COUNTROWS(
+    FILTER(
+        VALUES(vw_SalesDashboard_Enhanced[CustomerKey]),
+        CALCULATE(DISTINCTCOUNT(vw_SalesDashboard_Enhanced[OrderDate])) > 1
+    )
+) 
+
+6. Profit Margin % = DIVIDE([Total Profit], [Total Revenue]) 
+
+7. Active Customers = DISTINCTCOUNT(vw_SalesDashboard_Enhanced[CustomerKey]) 
+
+8. Average Transactio Value = DIVIDE([Total Revenue],[Total Orders])
+
+9. Avg Product Profit = AVERAGEX(
+    VALUES(vw_SalesDashboard_Enhanced[ProductName]),
+    [Total Profit]
+)
+
+10. Avg Revenue per Customer = DIVIDE([Total Revenue], [Active Customers] )
+
+11. Bridge Value = SWITCH(
+    SELECTEDVALUE(Bridge[Step]),
+    "Revenue", [Total Revenue],
+    "Cost", -SUM(vw_SalesDashboard_Enhanced[TotalProductCost]),
+    "Profit", [Total Profit]
+) 
