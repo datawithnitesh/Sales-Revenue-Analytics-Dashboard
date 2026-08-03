@@ -27,7 +27,10 @@ Public dataset: AdventureWorks
 4. Build dashboard in Power BI / Plotly / pandas / matplotlib
 
 ## Screenshots
-Add dashboard images here.
+Customer Analysis.png
+Executive Overview.png
+Product Analysis.png
+Regional Analysis.png
 
 ## Insights
 List 3 to 5 major business insights.
