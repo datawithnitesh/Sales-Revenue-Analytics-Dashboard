@@ -72,7 +72,8 @@ Sales-Revenue-Analytics-Dashboard
 
 ## 1️⃣ Executive Overview
 
-<img width="1782" height="1007" alt="image" src="https://github.com/user-attachments/assets/80cd8abc-d919-49d1-95be-80f4d4c247d2" />
+<img width="1786" height="1007" alt="image" src="https://github.com/user-attachments/assets/07153531-be9f-4ee6-a33b-f51152dda1de" />
+
 
 
 Provides a high-level summary of business performance including:
@@ -90,6 +91,9 @@ Provides a high-level summary of business performance including:
 
 ## 2️⃣ Product Analysis
 
+<img width="1786" height="1005" alt="image" src="https://github.com/user-attachments/assets/3ad75082-5ff3-4018-bf43-e043ce6b12ad" />
+
+
 Analyzes product performance including:
 
 - Top Revenue Products
@@ -102,6 +106,9 @@ Analyzes product performance including:
 
 ## 3️⃣ Regional Analysis
 
+<img width="1794" height="1008" alt="image" src="https://github.com/user-attachments/assets/63ad6c4a-0d68-411a-ac64-8c768e1d0307" />
+
+
 Provides geographical sales insights including:
 
 - Revenue by Territory
@@ -113,6 +120,9 @@ Provides geographical sales insights including:
 ---
 
 ## 4️⃣ Customer Analysis
+
+<img width="1782" height="1007" alt="image" src="https://github.com/user-attachments/assets/9cd0ece7-5342-42cd-aa92-102489da3ba3" />
+
 
 Focuses on customer behavior including:
 
@@ -168,32 +178,6 @@ Focuses on customer behavior including:
 - The business serves **18,484 active customers**.
 - Around **37% of customers are repeat buyers**, indicating healthy customer retention.
 - Revenue is well distributed across customers rather than depending on only a few large clients.
-
----
-
-# 📷 Dashboard Preview
-
-## Executive Overview
-
-> *(Insert Executive Overview Screenshot Here)*
-
----
-
-## Product Analysis
-
-> *(Insert Product Analysis Screenshot Here)*
-
----
-
-## Regional Analysis
-
-> *(Insert Regional Analysis Screenshot Here)*
-
----
-
-## Customer Analysis
-
-> *(Insert Customer Analysis Screenshot Here)*
 
 ---
 
