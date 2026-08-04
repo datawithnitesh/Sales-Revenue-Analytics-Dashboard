@@ -212,17 +212,6 @@ git clone https://github.com/datawithnitesh/Sales-Revenue-Analytics-Dashboard.gi
 
 ---
 
-# 🔮 Future Improvements
-
-- Forecasting using time-series analysis
-- Customer segmentation (RFM Analysis)
-- Drill-through reports
-- Dynamic KPI alerts
-- Row-Level Security (RLS)
-- Power BI Service deployment
-
----
-
 # 👨‍💻 Author
 
 **Nitesh Prajapat**
