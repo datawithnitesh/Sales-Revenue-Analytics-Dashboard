@@ -1,37 +1,242 @@
-# Sales Revenue Analytics Dashboard
+# 📊 Sales Revenue Analytics Dashboard
 
-An end-to-end portfolio project built with Python, SQL, and Power BI to clean, analyze, and visualize sales data.
+> An end-to-end Sales Revenue Analytics project built using **Python, SQL, and Power BI** to transform raw sales data into actionable business insights through interactive dashboards.
 
-## Tools Used
-- Python (pandas, plotly)
-- SQL
-- Power BI
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Database-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Project Goal
-To transform raw sales data into business insights through cleaning, aggregation, and dashboard visualization.
+---
 
-## Key Features
-- Monthly revenue trends
-- Regional sales breakdown
-- Top product rankings
-- YoY comparison
-- Forecast analysis
+# 📌 Project Overview
 
-## Dataset
-Public dataset: AdventureWorks
+Businesses generate large amounts of sales data every day, but raw data alone cannot support effective decision-making.
 
-## Project Workflow
-1. Load raw sales data
-2. Clean data using pandas
-3. Query business metrics with SQL
-4. Build dashboard in Power BI / Plotly / pandas / matplotlib
+This project demonstrates an end-to-end analytics workflow that transforms raw sales data into meaningful business insights using **Python, SQL, and Power BI**.
 
-## Screenshots
-<img width="1782" height="1007" alt="image" src="https://github.com/user-attachments/assets/f2b8d2a0-5825-44d9-b311-621090901b58" />
+The dashboard enables business users to monitor revenue, profit, customer behavior, product performance, and regional sales through an interactive reporting experience.
 
+---
 
-## Insights
-List 3 to 5 major business insights.
+# 🎯 Business Objective
 
-## Author
-Nitesh Prajapat
+The objective of this project is to:
+
+- Analyze overall sales performance
+- Monitor revenue and profit trends
+- Identify top-performing products
+- Evaluate regional sales performance
+- Understand customer purchasing behavior
+- Support business decision-making through interactive dashboards
+
+---
+
+# 🛠 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| Python (Pandas and Numpy) | Data Cleaning & Preprocessing |
+| SQL | Data Querying & Transformation |
+| Power BI | Dashboard Development |
+| DAX | Business Calculations & KPIs |
+| CSV Dataset | Data Source |
+
+---
+
+# 📂 Repository Structure
+
+```
+Sales-Revenue-Analytics-Dashboard
+│
+├── Dashboard/
+│   ├── Sales_Revenue_Analytics_Dashboard.pbix
+│   └── Dashboard Screenshots
+│
+├── Data/
+│   ├── Sales_analytics_dataset.csv
+│   └── customer_table.csv
+│
+├── Dax/
+│   └── DAX Measures.md
+│
+├── Insights/
+│   └── key_findings.md
+│
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📈 Dashboard Pages
+
+## 1️⃣ Executive Overview
+
+Provides a high-level summary of business performance including:
+
+- Total Revenue
+- Total Profit
+- Total Orders
+- Profit Margin
+- Average Transaction Value
+- Monthly Revenue Trend
+- Revenue Bridge Analysis
+- Revenue by Category
+
+---
+
+## 2️⃣ Product Analysis
+
+Analyzes product performance including:
+
+- Top Revenue Products
+- Worst Performing Products
+- Revenue by Product
+- Product Profit Margin
+- Country-wise Product Performance
+
+---
+
+## 3️⃣ Regional Analysis
+
+Provides geographical sales insights including:
+
+- Revenue by Territory
+- Interactive Sales Map
+- Territory Performance
+- Regional Profit Margin
+- Country Comparison
+
+---
+
+## 4️⃣ Customer Analysis
+
+Focuses on customer behavior including:
+
+- Active Customers
+- Repeat Customers
+- Customer Revenue
+- Customer Distribution
+- Bike Buyer Analysis
+- Top Customers
+
+---
+
+# 📊 Key Performance Indicators
+
+| KPI | Value |
+|------|---------:|
+| Total Revenue | **$29.36M** |
+| Total Profit | **$12.08M** |
+| Profit Margin | **41.1%** |
+| Total Orders | **60K** |
+| Active Customers | **18,484** |
+| Repeat Customers | **6,860** |
+
+---
+
+# 💡 Key Business Insights
+
+### Revenue Performance
+
+- The business generated approximately **$29.36M** in revenue with **$12.08M** profit.
+- Overall **profit margin remains strong at 41.1%**, indicating healthy profitability.
+
+---
+
+### Product Performance
+
+- **Bikes contribute approximately 96% of total revenue**, making them the primary revenue driver.
+- Accessories generate the **highest profit margin**, presenting opportunities for additional growth.
+- A small number of products contribute a significant portion of overall revenue.
+
+---
+
+### Regional Performance
+
+- **Australia is the highest revenue-generating territory**, contributing nearly one-third of total revenue.
+- Major territories maintain consistent profitability with profit margins around **40–42%**.
+- Some territories generate very low revenue and may require further business investigation.
+
+---
+
+### Customer Performance
+
+- The business serves **18,484 active customers**.
+- Around **37% of customers are repeat buyers**, indicating healthy customer retention.
+- Revenue is well distributed across customers rather than depending on only a few large clients.
+
+---
+
+# 📷 Dashboard Preview
+
+## Executive Overview
+
+> *(Insert Executive Overview Screenshot Here)*
+
+---
+
+## Product Analysis
+
+> *(Insert Product Analysis Screenshot Here)*
+
+---
+
+## Regional Analysis
+
+> *(Insert Regional Analysis Screenshot Here)*
+
+---
+
+## Customer Analysis
+
+> *(Insert Customer Analysis Screenshot Here)*
+
+---
+
+# 🚀 How to Use
+
+1. Clone this repository.
+
+```
+git clone https://github.com/datawithnitesh/Sales-Revenue-Analytics-Dashboard.git
+```
+
+2. Open the Power BI (`.pbix`) file.
+
+3. Refresh the dataset if required.
+
+4. Explore each dashboard page using the navigation panel.
+
+---
+
+# 📚 Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- SQL Querying
+- Data Modeling
+- DAX Measures
+- KPI Design
+- Dashboard Development
+- Business Intelligence
+- Data Visualization
+- Business Storytelling
+
+---
+
+# 🔮 Future Improvements
+
+- Forecasting using time-series analysis
+- Customer segmentation (RFM Analysis)
+- Drill-through reports
+- Dynamic KPI alerts
+- Row-Level Security (RLS)
+- Power BI Service deployment
+
+---
+
+# 👨‍💻 Author
+
+**Nitesh Prajapat**
+
