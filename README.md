@@ -72,6 +72,9 @@ Sales-Revenue-Analytics-Dashboard
 
 ## 1️⃣ Executive Overview
 
+<img width="1782" height="1007" alt="image" src="https://github.com/user-attachments/assets/80cd8abc-d919-49d1-95be-80f4d4c247d2" />
+
+
 Provides a high-level summary of business performance including:
 
 - Total Revenue
